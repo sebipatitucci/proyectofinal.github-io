@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Curriculum Vitae</title>
+    <link rel="stylesheet" type="text/css" href="CSS/estilos2.css">
+    <script src="https://kit.fontawesome.com/eb576a252a.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+</head>
+<body>
+    <header id="cabecera">
+        <div id="foto">
+            <img src="imagenes/messi2.png" alt="No se pudo cargar la imagen">
+            
+        </div>
+        <h1 id="titulo">CV SEBASTIAN PATITUCCI</h1>
+    </header>    
+    <div id="barra">
+        <p id="skills">HABILIDADES</p>
+        <i id="html" class="fa-brands fa-html5"></i>
+        <i id="css" class="fa-brands fa-css3-alt"></i>
+        <i id="js" class="fa-brands fa-square-js"></i>
+        <i id="java" class="fa-brands fa-java"></i>
+    </div>
+    <div id="info-personal">
+        <p id="info">INFORMACION PERSONAL</p>
+            <div id="datos-personales">
+                <p><b>Nombre:</b> Sebastian Patitucci</p>
+                <p><b>Fecha de nacimiento:</b> 24/06/2002</p>
+                <p><b>E-mail:</b> patitucciivo@gmail.com</p>
+                <p><b>Direccion:</b> <button id="boton" onclick="getLocation()">Ver localizacion</button>
+                <p id="demo"></p>
+                <p><b>Telefono:</b> 1159532439</p>
+                <p><b>Nacionalidad:</b> Argentina</p>
+            </div>
+    </div>
+    <div id="div-formacion">
+        <p id="formacion">FORMACIÓN</p>
+        <div id="datos-personales-formacion">
+            <p><b>Estudios secundarios:</b> Instituto San Pablo</p>
+            <p><b>Estudios universitarios:</b> Cursando 3° año de Tecnicatura superior en Analista de Sistemas en el Instituto tecnologico Beltran</p>
+        </div>
+    </div>
+    <div id="div-acerca-de-mi">
+        <p id="acerca-de-mi">ACERCA DE MI</p>
+        <div id="datos-acerca-de-mi">
+            <p>Mi nombre es Sebastian Patitucci y tengo 20 años. Comence a estudiar cosas dedicadas a la programacion ya que es algo que me gusta y no me supone
+             ningun problema dedicar tiempo a intentar aprender y profundizarme mas sobre la cantidad inmensa de cosas que se pueden llegar a realizar.
+            Este curso me permitio poder expandir mi conocimiento y adentrame un poco mas en este mundo, ademas de darme motivacion para seguir adelante.</p>
+        </div>
+    </div>
+    <script>
+        var x = document.getElementById("demo");
+        
+        function getLocation() {
+          if (navigator.geolocation) {
+            navigator.geolocation.watchPosition(showPosition);
+          } else { 
+            x.innerHTML = "Este navegador no soporta la geolocalizacion";
+          }
+        }
+            
+        function showPosition(position) {
+            x.innerHTML="<b>Latitud:</b> " + position.coords.latitude + 
+            "<br><b>Longitud: </b>" + position.coords.longitude;
+        }
+        </script>
+</body>
+</html>

@@ -1,0 +1,257 @@
+#titulo{
+    border: 2px solid #025AFE;
+    border-radius: 10px;
+    font-size: 40px;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-shadow: 2px 2px 2px white;
+    display: block;
+    text-align: center;
+    width: 50%;
+    padding: 10px;
+    margin: auto;
+    margin-top: 50px;
+    margin-left: 65px;
+    color: black;
+    animation-name: animacion;
+    animation-duration: 10s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes animacion {
+    0%{background-color: white;}
+    10%{background-color: lightcyan;}
+    20%{background-color: lightskyblue;}
+    30%{background-color: lightseagreen;}
+    60%{background-color:lightskyblue;}
+    80%{background-color:lightcyan;}
+    90%{background-color: pink;}
+    100%{background-color: white;}
+}
+
+#barra{
+    
+    float:left;
+    border-right: 3px solid #025AFE;
+    width: 25%;
+    height: 900px;
+    margin: 75px 0px 2px -2px;
+    border-top: 3px solid #025AFE;
+    background-color: rgba(86, 198, 254, 0.981);
+    
+}
+
+#info-personal{
+    margin-top: 75px;
+    float: left;
+    width: 75%;
+}
+
+#info{
+    border-top: 2px solid #025AFE;
+    border-bottom: 2px solid #025AFE;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 10px;
+    padding-right: 60px;
+    font-size: 25px;
+    font-family: 'Indie Flower', cursive;
+    width: 100%;
+    font-weight:bold;
+    color: rgb(34, 50, 216);
+    text-shadow: 2px 2px 2px CYAN;
+    background-color: aquamarine;
+    animation-name: colorletra;
+    animation-duration: 10s;
+    animation-iteration-count: infinite;
+
+}
+
+#datos-personales{
+    font-size: 20px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    padding: 10px; 
+}
+
+#datos-personales-formacion{
+    font-size: 20px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    padding: 10px;   
+    columns: 2; 
+    column-rule-style: solid;
+    column-rule-width: 2px;
+    column-rule-color: #025afe;
+}
+
+#div-formacion{
+    margin-top: 50px;
+    float: left;
+    width: 75%;
+}
+
+#formacion{
+    border-top: 2px solid #025AFE;
+    border-bottom: 2px solid #025AFE;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 10px;
+    padding-right: 60px;
+    font-size: 25px;
+    font-family: 'Indie Flower', cursive;
+    width: 100%;
+    font-weight:bold;
+    color: rgb(34, 50, 216);
+    text-shadow: 2px 2px 2px cyan;
+    background-color: aquamarine;
+    animation-name: colorletra;
+    animation-duration: 10s;
+    animation-iteration-count: infinite;
+
+}
+
+ #texto{
+
+    background-color: aquamarine; 
+    border: 2px solid #025AFE;
+    color: black;
+    padding: 16px 32px 16px 32px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 16px;
+    margin: 25px 2px 4px 80px;
+    transition-duration: 0.4s;
+    cursor: pointer;
+    display: block;
+    border-radius: 30px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-weight: bold;
+}   
+ 
+
+#texto:hover {
+    background-color: #457fec;
+    color: white;
+ }
+
+
+ #cabecera{
+    height: 200px;
+    display: flex;
+ }
+
+ #foto{
+    display: flex;
+    margin-top:30px;
+    margin-left: 30px;
+    box-shadow: 2px 2px 2px black;
+ }
+
+#skills{
+    border-bottom: 2px solid #025AFE;
+    font-size: 26px;
+    text-align: center;
+    text-shadow: 1px 1px 1px cyan;
+    font-weight: bold;
+    font-family: 'Indie Flower', cursive;
+    height: 57px;
+    width: auto;
+    background-color: aquamarine;
+    color: #025AFE;
+    padding-top: 10px;
+    animation-name: colorletra;
+    animation-duration: 10s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes colorletra {
+    0%{color: #025AFE;}
+    10%{color: blue;}
+    20%{color: darkblue;}
+    30%{color: darkviolet;}
+    40%{color:darkmagenta;}
+    50%{color:darkorchid;}
+    60%{color: magenta;}
+    80%{color: red;}
+    100%{color: darkred;}
+}
+
+#html{
+    color: black;
+    font-size: 100px;
+    margin-left: 40%;
+    margin-top: 70px;
+}
+
+#css{
+    color: black;
+    font-size: 100px;
+    margin-left: 40%;
+    margin-top: 70px;
+}
+
+#js{
+    color: black;
+    font-size: 100px;
+    margin-left: 40%;
+    margin-top: 70px;
+}
+
+#java{
+    color: black;
+    font-size: 100px;
+    margin-left: 40%;
+    margin-top: 70px;
+}
+
+#datos-acerca-de-mi{
+    font-size: 20px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    padding: 10px;   
+    
+}
+
+#div-acerca-de-mi{
+    margin-top: 50px;
+    float: left;
+    width: 75%;
+}
+
+#acerca-de-mi{
+    border-top: 2px solid #025AFE;
+    border-bottom: 2px solid #025AFE;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 10px;
+    padding-right: 60px;
+    font-size: 25px;
+    font-family: 'Indie Flower', cursive;
+    width: 100%;
+    font-weight:bold;
+    color: rgb(34, 50, 216);
+    text-shadow: 2px 2px 2px cyan;
+    background-color: aquamarine;
+    animation-name: colorletra;
+    animation-duration: 10s;
+    animation-iteration-count: infinite;
+
+}
+
+#boton{
+    border: none;
+    color: white;
+    padding: 10px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    transition-duration: 0.4s;
+    cursor: pointer;
+    background-color: rgb(129, 201, 240); 
+    color: black; 
+    border: 2px solid #457fec;
+}
+
+#boton:hover {
+    background-color: #457fec;
+    color: white;
+  }
